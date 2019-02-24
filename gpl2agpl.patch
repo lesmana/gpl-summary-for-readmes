@@ -2,12 +2,9 @@
 < It is licensed under the GNU GPL version 3 or later.
 ---
 > It is licensed under the GNU AGPL version 3 or later.
-6c6,7
-< If you share this program you must do so under the same license.
----
-> If you share this program or use this program as a web service
-> you must do so under the same license.
-9c10
+6a7
+> or use this program (modified or not) as a web service
+10c11
 < For details see https://www.gnu.org/licenses/gpl-3.0.html
 ---
 > For details see https://www.gnu.org/licenses/agpl-3.0.html
