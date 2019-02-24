@@ -34,14 +34,20 @@ for agpl:
 
 diff:
 
-    2c2
-    < It is licensed under the GNU GPL version 3 or later.
-    ---
-    > It is licensed under the GNU AGPL version 3 or later.
-    6a7
-    > or use it as a web service
-    10c11
-    < For details see https://www.gnu.org/licenses/gpl-3.0.html
-    ---
-    > For details see https://www.gnu.org/licenses/agpl-3.0.html
+    --- gpl.txt	2019-02-24 22:03:56.256405408 +0100
+    +++ agpl.txt	2019-02-24 22:03:56.263068705 +0100
+    @@ -1,10 +1,11 @@
+     This program is free software.
+    -It is licensed under the GNU GPL version 3 or later.
+    +It is licensed under the GNU AGPL version 3 or later.
+     That means you are free to use this program for any purpose;
+     free to study and modify this program to suit your needs;
+     and free to share this program or your modifications with anyone.
+     If you share this program or your modifications
+    +or use it as a web service
+     you must do so under the same license.
+     That means you must also share the source code (modified or not)
+     and grant the recipients the same freedoms.
+    -For details see https://www.gnu.org/licenses/gpl-3.0.html
+    +For details see https://www.gnu.org/licenses/agpl-3.0.html
 

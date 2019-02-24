@@ -13,4 +13,4 @@ esyscmd(`sed "s/^/    /" agpl.txt')
 
 diff:
 
-esyscmd(`diff gpl.txt agpl.txt | sed "s/^/    /"')
+esyscmd(`diff -u gpl.txt agpl.txt | sed "s/^/    /"')
