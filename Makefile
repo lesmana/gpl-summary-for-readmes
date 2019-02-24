@@ -1,6 +1,6 @@
 
-README.md: README.in gpl.txt agpl.txt
-	m4 README.in > README.md
+README.md: README.m4 gpl.txt agpl.txt
+	m4 README.m4 > README.md
 
 agpl.txt: gpl.txt gpl2agpl.patch
 	patch gpl.txt gpl2agpl.patch -o agpl.txt
