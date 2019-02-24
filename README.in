@@ -10,3 +10,7 @@ esyscmd(`sed "s/^/    /" gpl.txt')
 for agpl:
 
 esyscmd(`sed "s/^/    /" agpl.txt')
+
+diff:
+
+esyscmd(`diff gpl.txt agpl.txt | sed "s/^/    /"')

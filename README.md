@@ -25,3 +25,9 @@ for agpl:
     If you use this program as a web service the same rules apply as if sharing.
     For details see https://www.gnu.org/licenses/gpl-3.0.html
 
+
+diff:
+
+    6a7
+    > If you use this program as a web service the same rules apply as if sharing.
+
