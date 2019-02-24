@@ -3,6 +3,6 @@ It is licensed under the GNU GPL version 3 or later.
 That means, in short, you can use this program for any purpose;
 you can study and modify this program to suit your needs;
 and you can share this program (in original or modified form) with anyone.
-If you share you must do so under the same license and provide the source code.
-The same goes when you use this programm as a web service.
+If you share this program you must provide the source code and do so under the same license.
+If you use this program as a web service the same rules apply as if sharing.
 For details see https://www.gnu.org/licenses/gpl-3.0.html
