@@ -11,7 +11,7 @@ for gpl:
     free to study and modify this program to suit your needs;
     and free to share this program (modified or not) with anyone.
     If you share this program you must do so under the same license.
-    That means you must also provide the source code
+    That means you must also share the source code (modified or not)
     and grant the recipient the same freedoms.
     For details see https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -25,7 +25,7 @@ for agpl:
     and free to share this program (modified or not) with anyone.
     If you share this program or use this program as a web service
     you must do so under the same license.
-    That means you must also provide the source code
+    That means you must also share the source code (modified or not)
     and grant the recipient the same freedoms.
     For details see https://www.gnu.org/licenses/agpl-3.0.html
 
