@@ -7,10 +7,11 @@ for gpl:
 
     This program is free software.
     It is licensed under the GNU GPL version 3 or later.
-    That means, in short, you can use this program for any purpose;
-    you can study and modify this program to suit your needs;
-    and you can share this program (in original or modified form) with anyone.
-    If you share this program you must provide the source code and do so under the same license.
+    That means, in short, you are free use this program for any purpose;
+    free to study and modify this program to suit your needs;
+    and free to share this program (in original or modified form) with anyone.
+    If you share this program you must do so under the same license.
+    That means you have to provide the source code and grant the same freedoms.
     For details see https://www.gnu.org/licenses/gpl-3.0.html
 
 
@@ -18,10 +19,11 @@ for agpl:
 
     This program is free software.
     It is licensed under the GNU AGPL version 3 or later.
-    That means, in short, you can use this program for any purpose;
-    you can study and modify this program to suit your needs;
-    and you can share this program (in original or modified form) with anyone.
-    If you share this program you must provide the source code and do so under the same license.
+    That means, in short, you are free use this program for any purpose;
+    free to study and modify this program to suit your needs;
+    and free to share this program (in original or modified form) with anyone.
+    If you share this program you must do so under the same license.
+    That means you have to provide the source code and grant the same freedoms.
     If you use this program as a web service the same rules apply as if sharing.
     For details see https://www.gnu.org/licenses/agpl-3.0.html
 
@@ -32,7 +34,7 @@ diff:
     < It is licensed under the GNU GPL version 3 or later.
     ---
     > It is licensed under the GNU AGPL version 3 or later.
-    7c7,8
+    8c8,9
     < For details see https://www.gnu.org/licenses/gpl-3.0.html
     ---
     > If you use this program as a web service the same rules apply as if sharing.
