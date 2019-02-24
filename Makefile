@@ -1,11 +1,12 @@
 
-README.md: README.m4 gpl.txt agpl.txt
+README.md: README.m4 gpl.txt agpl.txt gpl2agpl.patch
 	m4 README.m4 > README.md
 
-agpl.txt: gpl.txt gpl2agpl.patch
-	patch gpl.txt gpl2agpl.patch -o agpl.txt
+gpl.txt: a-gpl.m4
+	m4 a-gpl.m4 > gpl.txt
 
-.PHONY: patch
+agpl.txt: a-gpl.m4
+	m4 -DAffero a-gpl.m4 > agpl.txt
 
-patch:
+gpl2agpl.patch: gpl.txt agpl.txt
 	diff gpl.txt agpl.txt > gpl2agpl.patch || true
