@@ -54,3 +54,33 @@ diff:
     -For details see https://www.gnu.org/licenses/gpl-3.0.html
     +For details see https://www.gnu.org/licenses/agpl-3.0.html
 
+
+the plain text is available without indentation in gpl.txt and agpl.txt
+
+how to use
+----------
+
+copy the text for the license you want.
+paste it into your README or whatever documentation.
+rejoice!!1
+
+how to edit
+-----------
+
+basically only edit the .m4 files. the other files are generated from those.
+gpl.txt and agpl.txt is generated from a-gpl.m4.
+README.md is generated from README.m4.
+
+after editing run make. inspect the result. then commit all the files.
+the generated files are commited for your comfort.
+so you can just click and enjoy.
+
+goals and non-goals
+-------------------
+
+it should be a human readable.
+it should be short.
+at least shorter than the snippet that is recommend by gpl itself.
+it should pronounce the four freedoms that is granted by the license.
+it should pronounce the copyleft obligations to protect those freedoms.
+it should be correct (no false claims) but does not need to be complete.
