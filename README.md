@@ -1,7 +1,10 @@
 gpl summary for readmes
 -----------------------
 
-a short summary of the gnu gpl to put in readmes
+a short summary of the gnu gpl to put in readmes.
+the aim is to pronounce the four freedoms
+and the copyleft protecting the freedoms.
+it should be correct (no false claims) but it is not complete.
 
 for gpl:
 
