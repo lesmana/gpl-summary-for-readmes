@@ -7,7 +7,7 @@ for gpl:
 
     This program is free software.
     It is licensed under the GNU GPL version 3 or later.
-    That means, in short, you are free use this program for any purpose;
+    That means you are free use this program for any purpose;
     free to study and modify this program to suit your needs;
     and free to share this program (modified or not) with anyone.
     If you share this program you must do so under the same license
@@ -19,7 +19,7 @@ for agpl:
 
     This program is free software.
     It is licensed under the GNU AGPL version 3 or later.
-    That means, in short, you are free use this program for any purpose;
+    That means you are free use this program for any purpose;
     free to study and modify this program to suit your needs;
     and free to share this program (modified or not) with anyone.
     If you share this program you must do so under the same license
