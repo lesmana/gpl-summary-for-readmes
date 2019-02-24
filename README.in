@@ -13,4 +13,4 @@ esyscmd(`sed "s/^/    /" agpl.txt')
 
 diff:
 
-esyscmd(`sed "s/^/    /" agpl.patch')
+esyscmd(`sed "s/^/    /" gpl2agpl.patch')
