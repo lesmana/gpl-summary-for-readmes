@@ -90,3 +90,16 @@ also the obligation to protocol your changes with timestamps.
 although that one is covered by git or other versioning systems already.
 
 it does not need to be lawyer proof.
+
+license
+-------
+
+These texts are free to use.
+They are licensed under the WTFPL version 2.
+That means that you can do what the fuck
+you want to with these texts.
+For details see http://www.wtfpl.net/
+
+If you want you can put a link to this repository
+in the commit comment as credit to me
+when you decide to use my summaries in your project.
