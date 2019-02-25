@@ -2,9 +2,8 @@ gpl summary for readmes
 -----------------------
 
 a short summary of the gnu gpl to put in readmes.
-the aim is to pronounce the four freedoms
-and the copyleft protecting the freedoms.
-it should be correct (no false claims) but it is not complete.
+it pronounces the four freedoms and the copyleft obligations to protect the freedoms.
+it is correct (no false claims) but it is not complete.
 
 for gpl:
 
@@ -55,14 +54,14 @@ diff:
     +For details see https://www.gnu.org/licenses/agpl-3.0.html
 
 
-the plain text is available without indentation in gpl.txt and agpl.txt
-
 how to use
 ----------
 
 copy the text for the license you want.
 paste it into your README or whatever documentation.
 rejoice!!1
+
+the text is also availabe unformatted in the files gpl.txt and agpl.txt.
 
 how to edit
 -----------
@@ -78,9 +77,16 @@ so you can just click and enjoy.
 goals and non-goals
 -------------------
 
-it should be a human readable.
-it should be short.
-at least shorter than the snippet that is recommend by gpl itself.
+it should be a human readable (as opposed to lawyer readable).
 it should pronounce the four freedoms that is granted by the license.
 it should pronounce the copyleft obligations to protect those freedoms.
-it should be correct (no false claims) but does not need to be complete.
+it should be correct. that means there should be no false claims.
+it should be short.
+at least shorter than the snippet that is recommend by gpl itself.
+
+it does not need to be complete.
+for example the fact that you can charge money for the distribution is not mentioned.
+also the obligation to protocol your changes with timestamps.
+although that one is covered by git or other versioning systems already.
+
+it does not need to be lawyer proof.
