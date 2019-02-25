@@ -57,6 +57,8 @@ it does not need to be lawyer proof.
 license
 -------
 
+Copyright Lesmana Zimmer lesmana@gmx.de
+
 These texts are free to use.
 They are licensed under the WTFPL version 2.
 That means that you can do what the fuck
