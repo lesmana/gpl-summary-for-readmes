@@ -65,6 +65,7 @@ That means that you can do what the fuck
 you want to with these texts.
 For details see http://www.wtfpl.net/
 
-If you want you can put a link to this repository
-in the commit comment as credit to me
-when you decide to use my summaries in your project.
+
+If you decide to use my summaries in your project
+you can credit me by putting a link to this repository
+in the commit comment.
