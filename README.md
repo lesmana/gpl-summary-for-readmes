@@ -4,9 +4,8 @@ gpl summary for readmes
 a short summary of the gnu gpl to put in readmes.
 it pronounces the four freedoms (use, study, modify, share)
 and the copyleft obligations (share under same conditions).
-it is correct in the sense that it contains no false claims
-but it is not complete in that it does not communicate
-all points of the license.
+it is (hopefully) correct in the sense that it contains no false claims.
+it is not complete since it does not communicate all points of the license.
 also it is in no way lawyer proof.
 
 the summary for gpl:
@@ -70,9 +69,11 @@ m4 is a templating language of old.
 
 to change the license summary edit the a-gpl.m4 file.
 the makefile will generate gpl.txt and agpl.txt from the .m4 file.
-since the diff of gpl to agpl is only one line
+since the diff of the gpl and agpl summary is only one line
+(and the obvious change from gpl to agpl)
 both summaries are packed in one file.
 an m4 conditional expression controls the differing line.
+you should try hard to keep the diff to be only one line.
 
 to change this readme edit the README.m4 file.
 the makefile will generate README.md from the .m4 file.
@@ -105,6 +106,8 @@ goals and non-goals
   also the obligation to protocol your changes with timestamps.
   although that one is already covered by git or other versioning systems.
 * it does not need to be lawyer proof. at all.
+* the diff from the gpl and agpl summary should be only one line
+  (and the obvious change from gpl to agpl).
 
 license
 -------
