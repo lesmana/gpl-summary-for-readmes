@@ -40,9 +40,6 @@ the summary for agpl:
 
 the diff of the two (basically just added one line):
 
-    --- gpl.txt	2019-02-24 22:03:56.256405408 +0100
-    +++ agpl.txt	2019-02-24 22:03:56.263068705 +0100
-    @@ -1,10 +1,11 @@
      This program is free software.
     -It is licensed under the GNU GPL version 3 or later.
     +It is licensed under the GNU AGPL version 3 or later.

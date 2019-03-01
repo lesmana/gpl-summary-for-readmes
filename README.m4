@@ -19,7 +19,7 @@ esyscmd(`sed "s/^/    /" agpl.txt')
 
 the diff of the two (basically just added one line):
 
-esyscmd(`diff -u gpl.txt agpl.txt | sed "s/^/    /"')
+esyscmd(`diff -u gpl.txt agpl.txt | tail +4 | sed "s/^/    /"')
 
 how to use
 ----------
