@@ -102,9 +102,8 @@ goals and non-goals
 * it should be short.
   at least shorter than the snippet that is recommend by gpl itself.
 * it does not need to be complete.
-  for example the fact that you can charge money for the distribution is not mentioned.
-  also the obligation to protocol your changes with timestamps.
-  although that one is already covered by git or other versioning systems.
+  not mentioned is for example the fact that you can charge money for the distribution.
+  also not mentioned are how violations are handled.
 * it does not need to be lawyer proof. at all.
 * the diff from the gpl and agpl summary should be only one line
   (and the obvious change from gpl to agpl).
