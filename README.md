@@ -2,10 +2,14 @@ gpl summary for readmes
 -----------------------
 
 a short summary of the gnu gpl to put in readmes.
-it pronounces the four freedoms and the copyleft obligations to protect the freedoms.
-it is correct (no false claims) but it is not complete.
+it pronounces the four freedoms (use, study, modify, share)
+and the copyleft obligations (share under same conditions).
+it is correct in the sense that it contains no false claims
+but it is not complete in that it does not communicate
+all points of the license.
+also it is in no way lawyer proof.
 
-for gpl:
+the summary for gpl:
 
     This program is free software.
     It is licensed under the GNU GPL version 3 or later.
@@ -19,7 +23,7 @@ for gpl:
     For details see https://www.gnu.org/licenses/gpl-3.0.html
 
 
-for agpl:
+the summary for agpl:
 
     This program is free software.
     It is licensed under the GNU AGPL version 3 or later.
@@ -34,7 +38,7 @@ for agpl:
     For details see https://www.gnu.org/licenses/agpl-3.0.html
 
 
-diff:
+the diff of the two (basically just added one line):
 
     --- gpl.txt	2019-02-24 22:03:56.256405408 +0100
     +++ agpl.txt	2019-02-24 22:03:56.263068705 +0100
@@ -66,30 +70,47 @@ the text is also availabe unformatted in the files gpl.txt and agpl.txt.
 how to edit
 -----------
 
-basically only edit the .m4 files. the other files are generated from those.
-gpl.txt and agpl.txt is generated from a-gpl.m4.
-README.md is generated from README.m4.
+basically only edit the .m4 files.
+a makefile will generate the rest out of the .m4 files.
+m4 is a templating language of old.
 
-after editing run make. inspect the result. then commit all the files.
-the generated files are commited for your comfort.
-so you can just click and enjoy.
+to change the license summary edit the a-gpl.m4 file.
+the makefile will generate gpl.txt and agpl.txt from the .m4 file.
+since the diff of gpl to agpl is only one line
+both summaries are packed in one file.
+an m4 conditional expression controls the differing line.
+
+to change this readme edit the README.m4 file.
+the makefile will generate README.md from the .m4 file.
+the .m4 file includes the .txt files and generates and includes a diff.
+
+all files, generated or not, are commited.
+usually generated files are not commited.
+but in this case we want the generated README.md
+because github and gitlab prominently display the README.
+we also want gpl.txt and agpl.txt for easy access from the webinterface.
+otherwise people would need to download and "compile" themselves.
+and in worst case people don't even have make and m4 installed.
+
+so edit, run make, inspect files, then commit all the files.
+for your comfort and enjoyment.
 
 goals and non-goals
 -------------------
 
-it should be a human readable (as opposed to lawyer readable).
-it should pronounce the four freedoms that is granted by the license.
-it should pronounce the copyleft obligations to protect those freedoms.
-it should be correct. that means there should be no false claims.
-it should be short.
-at least shorter than the snippet that is recommend by gpl itself.
-
-it does not need to be complete.
-for example the fact that you can charge money for the distribution is not mentioned.
-also the obligation to protocol your changes with timestamps.
-although that one is covered by git or other versioning systems already.
-
-it does not need to be lawyer proof.
+* it should be a human readable (as opposed to lawyer readable).
+* it should pronounce the four freedoms that is granted by the license.
+  the freedom to use, study, modify, and share.
+* it should pronounce the copyleft obligations to protect those freedoms.
+  the obligation to share under the same license. if sharing.
+* it should be correct. that means there should be no false claims.
+* it should be short.
+  at least shorter than the snippet that is recommend by gpl itself.
+* it does not need to be complete.
+  for example the fact that you can charge money for the distribution is not mentioned.
+  also the obligation to protocol your changes with timestamps.
+  although that one is already covered by git or other versioning systems.
+* it does not need to be lawyer proof. at all.
 
 license
 -------
@@ -102,7 +123,5 @@ That means that you can do what the fuck
 you want to with these texts.
 For details see http://www.wtfpl.net/
 
-
-If you decide to use my summaries in your project
-you can credit me by putting a link to this repository
-in the commit comment.
+If you use this and want to credit me
+you can put a link to this repository in your commit comment.
