@@ -35,7 +35,7 @@ the summary for agpl:
     For details see https://www.gnu.org/licenses/agpl-3.0.html
 
 
-the diff of the two (basically just added one line):
+the diff of the two (agpl basically just adds one line):
 
      This program is free software.
     -It is licensed under the GNU GPL version 3 or later.
@@ -66,11 +66,12 @@ how to edit
 basically only edit the .m4 files.
 a makefile will generate the rest out of the .m4 files.
 m4 is a templating language of old.
+as is makefile a build system of old.
 
 to change the license summary edit the a-gpl.m4 file.
 the makefile will generate gpl.txt and agpl.txt from the .m4 file.
 since the diff of the gpl and agpl summary is only one line
-(and the obvious change from gpl to agpl)
+(apart from the obvious change from gpl to agpl)
 both summaries are packed in one file.
 an m4 conditional expression controls the differing line.
 you should try hard to keep the diff to be only one line.
@@ -87,8 +88,8 @@ we also want gpl.txt and agpl.txt for easy access from the webinterface.
 otherwise people would need to download and "compile" themselves.
 and in worst case people don't even have make and m4 installed.
 
-so edit, run make, inspect files, then commit all the files.
-for your comfort and enjoyment.
+so edit the files, run make, inspect files, then commit all the files.
+for great comfort and enjoyment.
 
 goals and non-goals
 -------------------
@@ -97,7 +98,7 @@ goals and non-goals
 * it should pronounce the four freedoms that is granted by the license.
   the freedom to use, study, modify, and share.
 * it should pronounce the copyleft obligations to protect those freedoms.
-  the obligation to share under the same license. if sharing.
+  the obligation to share under the same license, if sharing.
 * it should be correct. that means there should be no false claims.
 * it should be short.
   at least shorter than the snippet that is recommend by gpl itself.
@@ -106,7 +107,7 @@ goals and non-goals
   also not mentioned are how violations are handled.
 * it does not need to be lawyer proof. at all.
 * the diff from the gpl and agpl summary should be only one line
-  (and the obvious change from gpl to agpl).
+  (apart from the obvious change from gpl to agpl).
 
 license
 -------
