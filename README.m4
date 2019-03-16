@@ -37,7 +37,7 @@ a makefile will generate the rest out of the .m4 files.
 m4 is a templating language of old.
 as is makefile a build system of old.
 
-to change the license summary edit the a-gpl.m4 file.
+to change the license summary edit the gpl.m4 file.
 the makefile will generate gpl.txt and agpl.txt from the .m4 file.
 since the diff of the gpl and agpl summary is only one line
 (apart from the obvious change from gpl to agpl)

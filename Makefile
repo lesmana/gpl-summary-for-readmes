@@ -2,8 +2,8 @@
 README.md: README.m4 gpl.txt agpl.txt
 	m4 README.m4 > README.md
 
-gpl.txt: a-gpl.m4
-	m4 a-gpl.m4 > gpl.txt
+gpl.txt: gpl.m4
+	m4 gpl.m4 > gpl.txt
 
-agpl.txt: a-gpl.m4
-	m4 -DAffero a-gpl.m4 > agpl.txt
+agpl.txt: gpl.m4
+	m4 -DAffero gpl.m4 > agpl.txt
