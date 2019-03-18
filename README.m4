@@ -19,6 +19,7 @@ esyscmd(`sed "s/^/    /" agpl.txt')
 the diff of the two (agpl basically just adds one line):
 
 esyscmd(`diff -u gpl.txt agpl.txt | tail +4 | sed "s/^/    /"')
+changequote(`{{{',`}}}')dnl
 
 how to use
 ----------
@@ -27,7 +28,7 @@ copy the text for the license you want.
 paste it into your README or whatever documentation.
 rejoice!!1
 
-the text is also availabe unformatted in the files gpl.txt and agpl.txt.
+the text is also availabe unformatted in the files `gpl.txt` and `agpl.txt`.
 
 how to edit
 -----------
