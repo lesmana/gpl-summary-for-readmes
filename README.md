@@ -20,7 +20,6 @@ the summary for gpl:
     That means you must share the source code under the same license.
     For details see https://www.gnu.org/licenses/gpl-3.0.html
 
-
 the summary for agpl:
 
     This program is free software.
@@ -33,7 +32,6 @@ the summary for agpl:
     you must grant the recipients the same freedoms.
     That means you must share the source code under the same license.
     For details see https://www.gnu.org/licenses/agpl-3.0.html
-
 
 the diff of the two (agpl basically just adds one line):
 
@@ -49,7 +47,6 @@ the diff of the two (agpl basically just adds one line):
      That means you must share the source code under the same license.
     -For details see https://www.gnu.org/licenses/gpl-3.0.html
     +For details see https://www.gnu.org/licenses/agpl-3.0.html
-
 
 how to use
 ----------
