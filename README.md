@@ -93,9 +93,9 @@ goals and non-goals
 -------------------
 
 * it should be a human readable (as opposed to lawyer readable).
-* it should pronounce the four freedoms that is granted by the license.
+* it should highlight the four freedoms that is granted by the license:
   the freedom to use, study, modify, and share.
-* it should pronounce the copyleft obligations to protect those freedoms.
+* it should highlight the copyleft obligation to protect those freedoms:
   if sharing must share under the same license.
 * it should be correct. that means there should be no false claims.
 * it should be short.
