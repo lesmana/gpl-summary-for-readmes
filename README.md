@@ -126,6 +126,12 @@ here is the summary from the GPL preamble
   if you distribute copies of the software, or if you modify it:
   responsibilities to respect the freedom of others.
 
+> For example, if you distribute copies of such a program,
+  whether gratis or for a fee,
+  you must pass on to the recipients the same freedoms that you received.
+  You must make sure that they, too, receive or can get the source code.
+  And you must show them these terms so they know their rights.
+
 and the recommended README snippet
 
     <one line to give the program's name and a brief idea of what it does.>
@@ -144,17 +150,18 @@ and the recommended README snippet
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-from [https://www.gnu.org/licenses/gpl-3.0.html](https://www.gnu.org/licenses/gpl-3.0.html)
+both from [https://www.gnu.org/licenses/gpl-3.0.html](https://www.gnu.org/licenses/gpl-3.0.html)
 
 my toughts:
 the summary in the preamble mentions all four freedoms
 and the copyleft obligation.
 but it feels convoluted.
 it is not straighforward enough for my taste.
+also it is too long.
 
 the recommended README snippet only mentions that it is free software
 without explaining what that means.
-and it does not mention the copyleft obligation at all.
+also it does not mention the copyleft obligation.
 instead it disclaims warranty. loudly. as required by U.S. law.
 
 i wanted a short straightforward text highlighting all the freedoms
