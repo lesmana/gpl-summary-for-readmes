@@ -3,7 +3,7 @@ gpl summary for readmes
 
 a short summary of the gnu gpl to put in readmes.
 it pronounces the four freedoms (use, study, modify, share)
-and the copyleft obligations (share under same conditions).
+and the copyleft obligations (if sharing share under same conditions).
 it is (hopefully) correct in the sense that it contains no false claims.
 it is not complete since it does not communicate all points of the license.
 also it is in no way lawyer proof.
@@ -51,22 +51,22 @@ the diff of the two (agpl basically just adds one line):
 how to use
 ----------
 
-copy the text for the license you want.
-paste it into your README or whatever documentation.
-rejoice!!1
+1. copy the text for the license you want.
+2. paste it into your README or whatever documentation.
+3. rejoice!!1
 
 the text is also availabe unformatted in the files `gpl.txt` and `agpl.txt`.
 
 how to edit
 -----------
 
-basically only edit the .m4 files.
-a makefile will generate the rest out of the .m4 files.
+basically only edit the m4 files.
+a makefile will generate the rest out of the m4 files.
 m4 is a templating language of old.
 as is makefile a build system of old.
 
 to change the license summary edit the gpl.m4 file.
-the makefile will generate gpl.txt and agpl.txt from the .m4 file.
+the makefile will generate both gpl.txt and agpl.txt from the m4 file.
 since the diff of the gpl and agpl summary is only one line
 (apart from the obvious change from gpl to agpl)
 both summaries are packed in one file.
@@ -74,10 +74,11 @@ an m4 conditional expression controls the differing line.
 you should try hard to keep the diff to be only one line.
 
 to change this readme edit the README.m4 file.
-the makefile will generate README.md from the .m4 file.
-the .m4 file includes the .txt files and generates and includes a diff.
+the makefile will generate README.md from the m4 file.
+the m4 file will include both gpl.txt and agpl.txt
+and generate and include a diff of the two.
 
-all files, generated or not, are commited.
+all files, generated or not, are then commited.
 usually generated files are not commited.
 but in this case we want the generated README.md
 because github and gitlab prominently display the README.
@@ -95,7 +96,7 @@ goals and non-goals
 * it should pronounce the four freedoms that is granted by the license.
   the freedom to use, study, modify, and share.
 * it should pronounce the copyleft obligations to protect those freedoms.
-  the obligation to share under the same license, if sharing.
+  if sharing must share under the same license.
 * it should be correct. that means there should be no false claims.
 * it should be short.
   at least shorter than the snippet that is recommend by gpl itself.
