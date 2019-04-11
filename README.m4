@@ -1,3 +1,4 @@
+changequote(`{{{',`}}}')dnl change m4 quote so can use markdown quote
 gpl summary for readmes
 -----------------------
 
@@ -10,16 +11,15 @@ also it is in no way lawyer proof.
 
 the summary for gpl:
 
-esyscmd(`sed "s/^/    /" gpl.txt')dnl
+esyscmd({{{sed "s/^/    /" gpl.txt}}})dnl
 
 the summary for agpl:
 
-esyscmd(`sed "s/^/    /" agpl.txt')dnl
+esyscmd({{{sed "s/^/    /" agpl.txt}}})dnl
 
 the diff of the two (agpl basically just adds one line):
 
-esyscmd(`diff -u gpl.txt agpl.txt | tail +4 | sed "s/^/    /"')dnl
-changequote(`{{{',`}}}')dnl
+esyscmd({{{diff -u gpl.txt agpl.txt | tail +4 | sed "s/^/    /"}}})dnl
 
 how to use
 ----------
