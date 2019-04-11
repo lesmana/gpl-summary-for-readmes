@@ -17,7 +17,7 @@ the summary for gpl:
     and free to share this program or your modifications with anyone.
     If you share this program or your modifications
     you must grant the recipients the same freedoms.
-    That means you must share the source code under the same license.
+    To be more specific: you must share the source code under the same license.
     For details see https://www.gnu.org/licenses/gpl-3.0.html
 
 the summary for agpl:
@@ -30,7 +30,7 @@ the summary for agpl:
     If you share this program or your modifications
     or use it as a web service
     you must grant the recipients the same freedoms.
-    That means you must share the source code under the same license.
+    To be more specific: you must share the source code under the same license.
     For details see https://www.gnu.org/licenses/agpl-3.0.html
 
 the diff of the two (agpl basically just adds one line):
@@ -44,7 +44,7 @@ the diff of the two (agpl basically just adds one line):
      If you share this program or your modifications
     +or use it as a web service
      you must grant the recipients the same freedoms.
-     That means you must share the source code under the same license.
+     To be more specific: you must share the source code under the same license.
     -For details see https://www.gnu.org/licenses/gpl-3.0.html
     +For details see https://www.gnu.org/licenses/agpl-3.0.html
 
