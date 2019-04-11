@@ -107,6 +107,63 @@ goals and non-goals
 * the diff from the gpl and agpl summary should be only one line
   (apart from the obvious change from gpl to agpl).
 
+comparison with GPL own text
+----------------------------
+
+here is the summary from the GPL preamble
+
+> When we speak of free software, we are referring to freedom, not price.
+  Our General Public Licenses are designed to make sure that you have
+  the freedom to distribute copies of free software
+  (and charge for them if you wish),
+  that you receive source code or can get it if you want it,
+  that you can change the software or use pieces of it in new free programs,
+  and that you know you can do these things.
+
+> To protect your rights, we need to prevent others
+  from denying you these rights or asking you to surrender the rights.
+  Therefore, you have certain responsibilities
+  if you distribute copies of the software, or if you modify it:
+  responsibilities to respect the freedom of others.
+
+and the recommended README snippet
+
+    <one line to give the program's name and a brief idea of what it does.>
+    Copyright (C) <year>  <name of author>
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+from [https://www.gnu.org/licenses/gpl-3.0.html](https://www.gnu.org/licenses/gpl-3.0.html)
+
+my toughts:
+the summary in the preamble mentions all four freedoms
+and the copyleft obligation.
+but it feels convoluted.
+it is not straighforward enough for my taste.
+
+the recommended README snippet only mentions that it is free software
+without explaining what that means.
+and it does not mention the copyleft obligation at all.
+instead it disclaims warranty. loudly. as required by U.S. law.
+
+i wanted a short straightforward text highlighting all the freedoms
+and the copyleft obligation.
+friendly and informative for the user and developer.
+the shouting for the lawyers can be kept in the full license text
+which is included anyway.
+i hope i managed to do so with my summaries.
+
 license
 -------
 
